@@ -2,13 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 12px;
+    gap: 40px;
     margin-bottom: 10px;
     background-color: white;
-    border: 2px solid #89253e;
-    width: 200px;
+    border: 2px solid #4434bc;
+    border-radius: 15% 0;
+    width: 230px;
     padding-block: 5px;
-    padding-left: 12px;
+    padding-left: 30px;
     font-weight: 600;
 }
 .online {

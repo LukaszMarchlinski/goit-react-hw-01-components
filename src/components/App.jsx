@@ -13,7 +13,7 @@ export const App = () => {
     <div
       style={{
         margin: 0,
-        backgroundColor: "#3a6186",
+        backgroundColor: "#c0e0fa",
         textAlign: "center",
         display: "flex",
         justifyContent: "center",

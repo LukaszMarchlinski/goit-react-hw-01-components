@@ -1,21 +1,24 @@
 .profile {
     background-color: white;
-    width: 300px;
+    width: 330px;
     padding-top: 10px;
-    border: 2px solid #89253e;
+    border: 2px solid #4434bc;
+    border-radius: 15% 0 0 0;
 }
 .description {
+    padding: 5px;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.4;
 }
 .stats {
-    background-color: #89253e;
+    background-color: #4434bc;
     color: white;
     list-style: none;
     display: flex;
     justify-content: space-around;
     padding-block: 10px;
+    
 }
 .stats li {
     display: flex;
@@ -27,12 +30,12 @@
     font-weight: 700;
 }
 .tag {
-    color: rgb(100, 96, 96);
+    color: rgb(84, 192, 211);
 }
-.location {
-    composes: tag;
-}
+
 .avatar {
-    width: 80%;
+    width: 60%;
     margin: auto;
+    margin-bottom: 20px;
+
 }
