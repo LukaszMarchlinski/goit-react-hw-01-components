@@ -1,0 +1,23 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 2px solid #89253e;
+    width: 200px;
+    padding-block: 5px;
+    padding-left: 12px;
+    font-weight: 600;
+}
+.online {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: green;
+}
+.offline {
+    composes: online;
+    background-color: red;
+}
